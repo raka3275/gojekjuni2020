@@ -1,7 +1,7 @@
 <?php
 
 date_default_timezone_set('Asia/Jakarta');
-//os.system('clear');
+os.system('clear');
 include "function.php";
 ulang:
 // function change(){
@@ -54,7 +54,7 @@ echo color("blue","        Format Nomor 08/62 Pake Salah Satu                  \
 }
 echo "\n";
 echo "\n";
-//$frdy = new frdy();
+$frdy = new frdy();
 echo "NOMOR     : ";
 $phoneNumber = trim(fgets(STDIN));
 $getOTPToken = $frdy->loginRequest($phoneNumber);
