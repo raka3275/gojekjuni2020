@@ -54,7 +54,7 @@ echo color("blue","        Format Nomor 08/62 Pake Salah Satu                  \
 }
 echo "\n";
 echo "\n";
-$frdy = new frdy();
+//$frdy = new frdy();
 echo "NOMOR     : ";
 $phoneNumber = trim(fgets(STDIN));
 $getOTPToken = $frdy->loginRequest($phoneNumber);
