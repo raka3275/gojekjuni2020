@@ -29,7 +29,7 @@ echo "\n".color("white","?] Mau Redeem Voucher?: y/n ");
         echo color("nevy",".");
         sleep(10);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARBOLNASMART"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"YEARENDSALE"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","ðŸ”“â–¶Message: ".$message);
@@ -42,7 +42,7 @@ echo "\n".color("white","?] Mau Redeem Voucher?: y/n ");
         echo color("nevy",".");
         sleep(5);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARBOLNASMART"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"YEARENDSALE"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","ðŸ”“â–¶Message: ".$message);
@@ -54,7 +54,7 @@ echo "\n".color("white","?] Mau Redeem Voucher?: y/n ");
         echo color("nevy",".");
         sleep(5);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARBOLNASMART"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"YEARENDSALE"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","ðŸ”“â–¶ Message: ".$message);
