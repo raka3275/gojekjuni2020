@@ -5,13 +5,16 @@ echo
 "\e[32;1m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
 echo
 "\e[32;1m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
-echo "\e[37;1m*************** \e[93mJANGAN LUPA MAKAN YA GEESSS\e[37;1m ***************   \n";
-echo "\e[37;1m********************* \e[93mGRUP MINHO\e[37;1m ******************\n";
-echo "\e[37;1m****************** \e[93mBOJOMU SEMANGATKU\e[37;1m ********\n";
+echo "\e[37;1m*************** \e[93mJANGAN LUPA SUBSCRIBE\e[37;1m ***************   \n";
+echo "\e[37;1m****************** \e[93mCHANNEL YOUTUBE\e[37;1m ******************\n";
+echo "\e[37;1m********************* \e[93mDZAINVINA\e[37;1m *********************\n";
+echo "\e[37;1m*************** \e[93minstagram : @dzainvina_\e[37;1m *************\n";
+echo "\e[37;1m****** \e[93mBANTU SAYA MENGEMBANGKAN CHANNEL SAYA\e[37;1m ********\n";
 echo "\e[32;1m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
 echo "\e[31;1m    || >>>>>>>>\e[1;33m".date('[d-m-Y] [H:i:s]')."\e[31;1m<<<<<<<< ||\n";
 echo "\e[32;1m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
 echo "\e[32;1m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
+echo "\e[31;1m*â€¢*â€¢*â€¢*â€¢*â€¢*â€¢*â€¢*â€¢*â€¢*â€¢\e[93mMERZA SAPUTRA\e[31;1mâ€¢*â€¢*â€¢*â€¢*â€¢*â€¢*â€¢*â€¢*â€¢*â€¢*\n";
 echo "\e[32;1mâ–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬â–¬\n";
 echo "\e[93m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
 echo color("white"," ðŸ”«Token: ");
@@ -26,7 +29,7 @@ echo "\n".color("white","?] Mau Redeem Voucher?: y/n ");
         echo color("nevy",".");
         sleep(10);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"YEARENDSALE"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARBOLNASMART"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","ðŸ”“â–¶Message: ".$message);
@@ -39,7 +42,7 @@ echo "\n".color("white","?] Mau Redeem Voucher?: y/n ");
         echo color("nevy",".");
         sleep(5);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"YEARENDSALE"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARBOLNASMART"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","ðŸ”“â–¶Message: ".$message);
@@ -51,7 +54,7 @@ echo "\n".color("white","?] Mau Redeem Voucher?: y/n ");
         echo color("nevy",".");
         sleep(5);
         }
-        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"YEARENDSALE"}');
+        $code1 = request('/go-promotions/v1/promotions/enrollments', $token, '{"promo_code":"HARBOLNASMART"}');
         $message = fetch_value($code1,'"message":"','"');
         if(strpos($code1, 'Promo kamu sudah bisa dipakai')){
         echo "\n".color("green","ðŸ”“â–¶ Message: ".$message);
